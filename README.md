@@ -7,13 +7,12 @@ Simple script that can be used for monitor ipsec status of a vcloud ipsec tunnel
 - urllib2
 
 ## Howto
-Example:
 ```sh
 $ ./ipsec_monitor.py -u <my_vcloud_username> -p <my_vcloud_password -o <my_vcloud_organisation> -v <my_vcloud_url>
 INFO: Tunnel test to 8.8.8.8 is UP (status: enabled)
 ```
 
-Help:
+## Help:
 ```sh
 $ ./ipsec_monitor.py -h
 usage: ipsec_monitor.py [-h] -u VCLOUD_USERNAME -p VCLOUD_PASSWORD -o
