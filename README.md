@@ -12,7 +12,7 @@ $ ./ipsec_monitor.py -u <my_vcloud_username> -p <my_vcloud_password -o <my_vclou
 INFO: Tunnel test to 8.8.8.8 is UP (status: enabled)
 ```
 
-## Help:
+## Help
 ```sh
 $ ./ipsec_monitor.py -h
 usage: ipsec_monitor.py [-h] -u VCLOUD_USERNAME -p VCLOUD_PASSWORD -o
